@@ -1,4 +1,4 @@
-package customerDemo;
+package constructorDemo;
 
 class Student {
     int id;
