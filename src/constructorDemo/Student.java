@@ -8,11 +8,9 @@ class Student {
         this.id = id;
         this.name = name;
     }
-
     void display() {
         System.out.println(id + " " + name);
     }
-
     public static void main(String[] args) {
         Student s1 = new Student(101, "Aditi");
         s1.display();
