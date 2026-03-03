@@ -1,4 +1,4 @@
-package stringConcept;
+package stringconcept;
 public class StringDemo {
     public static  void main(String[] args){
         String s1= "Aditi"; //using String Literal

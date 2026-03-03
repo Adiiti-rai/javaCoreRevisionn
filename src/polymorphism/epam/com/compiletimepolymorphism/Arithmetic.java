@@ -1,4 +1,4 @@
-package polymorphism.epam.com.compileTimePolymorphism;
+package polymorphism.epam.com.compiletimepolymorphism;
 
 public class Arithmetic {
     int sum(int a,int b){

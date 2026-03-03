@@ -1,5 +1,5 @@
-package abstractionConcept;
-import java.util.*;
+package abstractionconcept;
+
 abstract class Shape {
     abstract void calculateArea();
 }
