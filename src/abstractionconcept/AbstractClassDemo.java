@@ -1,4 +1,4 @@
-package abstractionConcept;
+package abstractionconcept;
 
 abstract class Animal {
     abstract void sound();

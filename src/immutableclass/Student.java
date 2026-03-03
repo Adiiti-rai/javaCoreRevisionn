@@ -1,4 +1,4 @@
-package immutableClass;
+package immutableclass;
 
 public final class Student {
 

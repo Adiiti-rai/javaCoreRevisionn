@@ -9,7 +9,7 @@
 //Object-> Object is an instance of class. It's real time entity.
 
 
-package objectOrientedConcept;
+package objectorientedconcept;
 import java.util.*;
 public class Student {
     String name;
