@@ -1,5 +1,9 @@
 package thissuperkeyword;
 // this--> this refers to the current object of the current class.
+// there are three ways to use this keyword:
+// 1. to refer current class instance variable.
+// 2. to invoke current class method.
+// 3. to invoke current class constructor.
 import java.util.*;
 public class Product {
     int productId;
@@ -24,3 +28,9 @@ public class Product {
     }
 
 }
+
+//this keyword refers to current class object.
+//It is used for:
+//1️. Accessing current class variables → this.variable
+//2️. Calling current class methods → this.method()
+//3️. Calling current class constructors → this()
