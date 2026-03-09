@@ -18,3 +18,7 @@ public class Payment {
         }
     }
 
+    // super refers to the parent class object.it is used in inheritance.
+//super keyword can be used in three ways:---------------
+// It is used to call parent class 1.method, 2.variable and 3.constructor.
+
