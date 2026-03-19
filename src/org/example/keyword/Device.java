@@ -1,14 +1,16 @@
-package thissuperkeyword;
-import java.util.*;
+package org.example.keyword;
+
 public class Device {
     Device(){
         this(1001);
         System.out.println("Print the default constructor");
     }
     Device(int id){
+
         System.out.println("Print the parameterized constructor with id:"+id);
     }
     public static void main(String[] args){
+
         Device d= new Device();
     }
 }

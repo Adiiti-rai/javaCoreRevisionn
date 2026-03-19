@@ -1,5 +1,5 @@
-package thissuperkeyword;
-import java.util.*;
+package org.example.keyword;
+
 public class Hello {
     int a = 10;
 }

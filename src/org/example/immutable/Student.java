@@ -1,4 +1,4 @@
-package immutableclass;
+package org.example.immutable;
 
 public final class Student {
 

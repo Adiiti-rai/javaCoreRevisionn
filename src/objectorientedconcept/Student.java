@@ -34,7 +34,5 @@ public class Student {
         System.out.println(rollNo);
         System.out.println(department);
         System.out.println(sum);
-        //aa
-        //a
     }
 }

@@ -13,8 +13,8 @@ class Dog extends Animal {
 }
     public class AbstractClassDemo {
     public static void main(String[] args) {
-        Dog d = new Dog();
-        d.sound();
-        d.sleep();
+        Dog dog = new Dog();
+        dog.sound();
+        dog.sleep();
     }
 }
