@@ -47,16 +47,24 @@ public class StreamExamples {
 
         //7. print String with max vowels.
         String maxVowels = list.stream()
-                .max(Comparator.comparingInt(x -> countVowels(x)))
-                // countVowels is a static method,It  belongs to the class not object.
+                .max(Comparator.comparing(str -> str.chars()
+                        .mapToObj(ch -> (char) ch)
+                        .filter(ch -> "AEIOUaeiou".contains(String.valueOf(ch)))
+                        .count()
+                ))
                 .orElse(null);
-        System.out.println("String with max vowels:" + maxVowels);
 
+        System.out.println("String with max vowels: " + maxVowels);
         //8. print String with min vowels.
         String minVowels = list.stream()
-                .min(Comparator.comparingInt(x->countVowels(x)))
+                .min(Comparator.comparing(str -> str.chars()
+                        .mapToObj(ch -> (char) ch)
+                        .filter(ch -> "AEIOUaeiou".contains(String.valueOf(ch)))
+                        .count()
+                ))
                 .orElse(null);
-        System.out.println("String with min vowels:" + minVowels);
+
+        System.out.println("String with min vowels: " + minVowels);
 
         //9.convert List to map. map Key should be string nad value should be length of string.
         Map<String,Integer>map= list.stream()
@@ -90,11 +98,4 @@ public class StreamExamples {
         System.out.println("convert all elements to upperCase:" + upperCase);
     }
 
-    // // Helper method to count vowels
-    public static int countVowels(String str) {
-        return (int) str.toLowerCase()
-                .chars()
-                .filter(c -> "aeiou".indexOf(c) != -1)
-                .count();
-    }
 }
