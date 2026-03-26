@@ -1,4 +1,4 @@
-package thissuperkeyword;
+package org.example.keyword;
 //in this we call the constructor of the parent class using super keyword
 public class App {
     App(){
