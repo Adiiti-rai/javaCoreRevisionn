@@ -1,5 +1,5 @@
-package thissuperkeyword;
-import java.util.*;
+package org.example.keyword;
+
 public class Order {
     void show(){
         System.out.println("showing the order");
